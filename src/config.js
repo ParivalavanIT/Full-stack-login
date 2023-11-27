@@ -21,7 +21,7 @@ const Loginschema = new mongoose.Schema({
     }
 });
 
-// collection part
+// collection pat
 const collection = new mongoose.model("users", Loginschema);
 
 module.exports = collection;
